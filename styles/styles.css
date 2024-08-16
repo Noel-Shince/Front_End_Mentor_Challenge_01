@@ -1,0 +1,74 @@
+body 
+{
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+}
+
+#card 
+{
+    background-color: #1f1f1f;
+    height: 457px;
+    width: 285px;
+    margin: 90px auto;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 10px;
+}
+
+.circular_image 
+{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+#content_container
+{
+    padding: 25px;
+}
+
+.name 
+{
+    color: #f4f4f4;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.place
+{
+    color: #b0d23c;
+    padding-bottom: 15px;
+    font-size: 85%;
+}
+.quote
+{
+    padding-top: 0px;
+    color: #f4f4f4;
+    font-size: 75%;
+    padding-bottom: 25px;
+}
+
+.button
+{
+    background-color: #333333;
+    padding: 7.5px; 
+    margin: 10px;
+    font-size: 75%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s transform 0.3s;
+    color: #f4f4f4;
+}
+
+.button:hover
+{
+    background-color: #c4f82a;
+    color: #141414;
+    transform: scale(1.05);
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
